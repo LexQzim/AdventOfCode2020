@@ -1,3 +1,5 @@
+import re
+
 with open('day4.txt') as file:
     entries = [entry.strip() for entry in file]
 
@@ -27,7 +29,6 @@ listOfPassports.append(passDict)
 
 countOfCorrectPassports = len(listOfPassports)
 print('countOfPassports: ' + str(countOfCorrectPassports))
-# print(listOfPassports)
 
 listOfNone = []
 
@@ -40,5 +41,32 @@ for passport in listOfPassports:
             countOfCorrectPassports -= 1
             break
 
-print(countOfCorrectPassports)
+listOfCorrectPassports = [
+    elem for elem in listOfPassports if elem not in listOfNone]
 
+print('Part One: ' + str(len(listOfCorrectPassports)))
+# Part two
+
+hairColorRe = "\A#[a-f0-9]{6}"
+
+pidRe = "[0-9]{9}"
+
+bla = 0
+for passport in listOfCorrectPassports:
+    if(int(passport[byr]) > 1919 and int(passport[byr]) < 2003):
+        bla += 1
+        # print(passport[byr])
+    if(int(passport[iyr]) > 2009 and int(passport[iyr]) < 2021):
+        bla += 1
+        # print(passport[iyr]
+    if(int(passport[eyr]) > 2019 and int(passport[eyr]) < 2031):
+        bla += 1
+        # print(passport[eyr])
+
+    if(re.search(hairColorRe, passport[hcl])):
+        bla += 1
+
+        # print(passport[hcl])
+
+    if(re.search(pidRe, passport[pid])):
+        print(passport[pid])
