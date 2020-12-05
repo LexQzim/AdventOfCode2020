@@ -48,25 +48,43 @@ print('Part One: ' + str(len(listOfCorrectPassports)))
 # Part two
 
 hairColorRe = "\A#[a-f0-9]{6}"
-
 pidRe = "[0-9]{9}"
+eclValidEntrie = ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"]
 
-bla = 0
+validPassports = 0
+
 for passport in listOfCorrectPassports:
+    validEntries = 0
     if(int(passport[byr]) > 1919 and int(passport[byr]) < 2003):
-        bla += 1
+        validEntries += 1
         # print(passport[byr])
     if(int(passport[iyr]) > 2009 and int(passport[iyr]) < 2021):
-        bla += 1
+        validEntries += 1
         # print(passport[iyr]
     if(int(passport[eyr]) > 2019 and int(passport[eyr]) < 2031):
-        bla += 1
+        validEntries += 1
         # print(passport[eyr])
-
     if(re.search(hairColorRe, passport[hcl])):
-        bla += 1
-
+        validEntries += 1
         # print(passport[hcl])
+    if(re.search(pidRe, passport[pid]) and len(passport[pid]) == 9):
+        validEntries += 1
+        # print(passport[pid])
+    if passport[ecl] in eclValidEntrie:
+        validEntries += 1
+        # print(passport[ecl])
+    if re.search("cm$", passport[hgt]):
+        cm = int(passport[hgt].split("cm")[0])
+        if cm >= 150 and cm <= 193:
+            validEntries += 1
+            # print(cm)
+    if re.search("in$", passport[hgt]):
+        inch = int(passport[hgt].split("in")[0])
+        if inch >= 59 and inch <= 76:
+            validEntries += 1
+            # print(inch)
 
-    if(re.search(pidRe, passport[pid])):
-        print(passport[pid])
+    if validEntries == 7:
+        validPassports += 1
+
+print('Part Two: ' + str(validPassports))
