@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\amizuk\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\amizuk\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_AdventOfCode2020.2022165981.00" t="ExcludeRecursive" />
+    <e p="C:\Users\amizuk\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\amizuk\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_AdventOfCode2020.2022165981.00" t="ExcludeRecursive" />
     <e p="D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020" t="IncludeFlat">
-      <e p="AdventOfCode2020" t="IncludeRecursive">
-        <e p="AdventOfCode2020.csproj" t="IncludeRecursive" />
+      <e p="AdventOfCode2020.sln" t="IncludeFlat" />
+      <e p="AdventOfCode2020_dotnet5" t="IncludeRecursive">
+        <e p="AdventOfCode2020_dotnet5.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Day7" t="Include">
           <e p="Bag.cs" t="Include" />
-          <e p="DAy7.cs" t="Include" />
+          <e p="Day7.cs" t="Include" />
+        </e>
+        <e p="Day8" t="Include">
+          <e p="Day8.cs" t="Include" />
+          <e p="Instruction.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="AdventOfCode2020.AssemblyInfo.cs" t="Include" />
+            <e p="net5.0" t="Include">
+              <e p="AdventOfCode2020_dotnet5.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
         <e p="Program.cs" t="Include" />
       </e>
-      <e p="AdventOfCode2020.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
