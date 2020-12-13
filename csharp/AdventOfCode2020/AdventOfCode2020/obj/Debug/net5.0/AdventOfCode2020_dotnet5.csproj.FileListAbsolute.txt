@@ -1,0 +1,16 @@
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\bin\Debug\net5.0\AdventOfCode2020_dotnet5.exe
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\bin\Debug\net5.0\AdventOfCode2020_dotnet5.deps.json
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\bin\Debug\net5.0\AdventOfCode2020_dotnet5.runtimeconfig.json
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\bin\Debug\net5.0\AdventOfCode2020_dotnet5.runtimeconfig.dev.json
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\bin\Debug\net5.0\AdventOfCode2020_dotnet5.dll
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\bin\Debug\net5.0\ref\AdventOfCode2020_dotnet5.dll
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\bin\Debug\net5.0\AdventOfCode2020_dotnet5.pdb
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\obj\Debug\net5.0\AdventOfCode2020_dotnet5.csprojAssemblyReference.cache
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\obj\Debug\net5.0\AdventOfCode2020_dotnet5.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\obj\Debug\net5.0\AdventOfCode2020_dotnet5.AssemblyInfoInputs.cache
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\obj\Debug\net5.0\AdventOfCode2020_dotnet5.AssemblyInfo.cs
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\obj\Debug\net5.0\AdventOfCode2020_dotnet5.csproj.CoreCompileInputs.cache
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\obj\Debug\net5.0\AdventOfCode2020_dotnet5.dll
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\obj\Debug\net5.0\ref\AdventOfCode2020_dotnet5.dll
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\obj\Debug\net5.0\AdventOfCode2020_dotnet5.pdb
+D:\Projekte\AdventOfCode2020\csharp\AdventOfCode2020_dotnet5\AdventOfCode2020_dotnet5\obj\Debug\net5.0\AdventOfCode2020_dotnet5.genruntimeconfig.cache
